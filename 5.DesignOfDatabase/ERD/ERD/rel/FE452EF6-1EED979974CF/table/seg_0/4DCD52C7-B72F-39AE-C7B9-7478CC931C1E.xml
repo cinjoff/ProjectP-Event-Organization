@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="4DCD52C7-B72F-39AE-C7B9-7478CC931C1E" directorySegmentName="seg_0" name="Order">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>F32952BE-3174-2D26-8CDD-186E4637E434</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pkName>Order PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="OrderNumber" id="CB5E3557-24AF-FFD6-6667-CDFD32A2F7BB">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>BA07459A-0477-077F-2907-A162107571CB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TotalPrice" id="B4890669-3B77-1124-0B33-A2723CEBB25C">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>FCEECBC6-CFF7-88D0-B176-E62D29FD1F2D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="EventAccount" id="DAE76B99-F70A-217C-AF42-F030ED14F673">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>BA586252-5202-8463-B65E-57030AA24F82</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>45C0AFEB-974E-B2F0-5799-58F3BFDC34CD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="536277D0-84AF-A773-1882-B6BCBB62DD9B" referredColumn="45C0AFEB-974E-B2F0-5799-58F3BFDC34CD"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Time" id="0864A9A9-5501-9817-08FF-F02F8D5F2099">
+<createdBy>Constantine</createdBy>
+<createdTime>2013-05-20 16:56:37 UTC</createdTime>
+<generatorID>D72E41C4-DC9A-90E0-150E-352219BCF880</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2CF9D7C3-584D-8111-C911-777AB15C4C61" name="Order PK">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>FBC8E068-0A91-F3C6-135F-F550C882D362</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CB5E3557-24AF-FFD6-6667-CDFD32A2F7BB"/>
+<colUsage columnID="DAE76B99-F70A-217C-AF42-F030ED14F673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2A5C8E3D-16AB-221E-B3F8-E532BBD477A3" name="Relation_5">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>9360C2A4-5EFC-F13B-F93E-7E4E8795CE2C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DAE76B99-F70A-217C-AF42-F030ED14F673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

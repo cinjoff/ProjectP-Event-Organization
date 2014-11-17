@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="18B188A2-E2FC-58E4-2079-23681CFC6493" directorySegmentName="seg_0" name="Renting-Line">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>32189B12-3182-46F6-2630-D964C0652B26</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pkName>Renting-Line PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ItemName" id="48AAAD8B-872B-94D9-0A20-1B571CCF802B">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>71358ADA-E294-9AC8-ABD1-3F3D7625F0CE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Rent" id="ED04F2CA-D9D9-C83B-EC70-F0E092905894">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>EB2CFC72-B7D8-BD86-4A94-50DF127D2200</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Quantity" id="A05CABC0-AFA7-D028-F834-07E120024654">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>F6545FB5-B56F-9DCF-9D03-8D9536C6003D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="7746BB8F-940C-54FD-6A52-203B08A5FE28">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-05-19 15:53:48 UTC</createdTime>
+<generatorID>FBE8F539-EF53-98B3-D2A7-476BABDA5DD6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>5EF82255-D591-BDD3-485A-5E4A899FCB0B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC4D1E2B-7860-EF83-9A63-1B6459DAC77C" referredColumn="5EF82255-D591-BDD3-485A-5E4A899FCB0B"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="OrderID" id="1066EAC7-D949-DDDA-66DD-401B2D9F5818">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-05-19 16:00:01 UTC</createdTime>
+<generatorID>75E54CF7-68BB-1B8E-1EE9-89E2F4DD8D88</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>21F19474-CDA3-4C2E-20A1-E765B8F364B0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0234F19E-A379-8080-BCE8-16801F2CCA9D" referredColumn="21F19474-CDA3-4C2E-20A1-E765B8F364B0"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Event-Account" id="D0A55C37-AD6B-EFC8-8BA5-49C63BCF73A4">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>C29AD3E7-3458-3B6B-4B53-A8D06D7C83FD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="17603380-202A-FF9C-18F7-F8AC07463ACC" name="Renting-Line PK">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>173C455D-47A4-466B-926D-8FA7222E94B3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="48AAAD8B-872B-94D9-0A20-1B571CCF802B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E803B3BC-84FA-6AF2-7B71-91ABA017B18E" name="Relation_2">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-03-17 15:47:00 UTC</createdTime>
+<generatorID>7EB8C7CC-6BFC-2BF9-D61F-58A748818056</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="1066EAC7-D949-DDDA-66DD-401B2D9F5818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4442F0E6-8214-821F-FA57-518A310CA921" name="Relation_12">
+<createdBy>Zhen</createdBy>
+<createdTime>2013-05-19 15:53:48 UTC</createdTime>
+<generatorID>B5121DC3-A7AA-088B-91E2-7125BB7B9DE9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7746BB8F-940C-54FD-6A52-203B08A5FE28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

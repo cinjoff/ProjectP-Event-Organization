@@ -1,0 +1,2 @@
+Our database is using Mysql which link is
+https://athena.fhict.nl/phpmyadmin/index.php?db=dbi251195&token=43feed9f0b47dc4e2185656bbd099ecd#PMAURL:db=dbi251195&server=1&target=db_structure.php&token=43feed9f0b47dc4e2185656bbd099ecd

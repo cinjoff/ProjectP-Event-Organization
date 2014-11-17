@@ -1,0 +1,23 @@
+h1{
+	color:#03F;
+	font:"Times New Roman", Times, serif;
+}
+
+p{
+	color:#000
+	font-size:16px;
+}
+
+#contact{
+	background-size:cover;
+	padding:20px;
+}
+
+#frame{
+	float:right;
+	margin-right:30px;
+}
+
+#about{
+	width:40%;
+}

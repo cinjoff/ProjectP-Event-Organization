@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="537565DF-8E61-D0F9-1AFD-F9C790D04D8A" name="Cables" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9D814E91-E4BD-E6FA-DB5E-C5C953FB4634" name="Client" seqName="seg_0"/>
+   <object objectType="Entity" objectID="85377B56-48AD-FB25-58CE-FCD3754EC601" name="Drinks" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6489183-57CE-01CA-6ACA-1BB9B9086A37" name="Laptops" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A4FE0670-CCDF-7E93-943E-4834140B6C42" name="Materials" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F32952BE-3174-2D26-8CDD-186E4637E434" name="Order" seqName="seg_0"/>
+   <object objectType="Entity" objectID="73C3282E-7EF2-253B-E0BB-06FE9193115D" name="OrderLine" seqName="seg_0"/>
+   <object objectType="Entity" objectID="45DA6817-882B-6EF8-5509-B864E7E36877" name="Products" seqName="seg_0"/>
+   <object objectType="Entity" objectID="32189B12-3182-46F6-2630-D964C0652B26" name="RentingLine" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1CE1A55E-9DE9-1EA3-99B9-B1DEDF793726" name="RentingList" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4DDBDE60-32B6-9CB8-17DE-BD124FD6AB9F" name="Reservation" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AF4E78FB-4D2E-04D3-F906-439CBAC94D47" name="Snack" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F27C1E1B-4110-CEF3-92E0-6580D14DFF8C" name="Spot" seqName="seg_0"/>
+   <object objectType="Entity" objectID="035CCBC0-2AB4-B0DD-8AB2-DC911C4E6A66" name="StorageDevices" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BE89B9CB-73C9-8DD3-39EE-2CE3C771EA4A" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E36D5FB6-8CB0-CD99-8D70-00AF1A4123FE" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B5121DC3-A7AA-088B-91E2-7125BB7B9DE9" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="87B4DFA7-BD2F-8C05-2FE2-C43716C045D2" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7EB8C7CC-6BFC-2BF9-D61F-58A748818056" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9360C2A4-5EFC-F13B-F93E-7E4E8795CE2C" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="954489F3-877C-555B-6BFA-AB48DC437174" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="61EA1409-8653-F94F-A74F-C9CFA1BBC897" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="56EB1FFA-8183-3CB5-F78A-443B0B028A72" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="CCE2F429-58B9-4356-9CDD-D49ADBF18896" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="E554E377-8E11-4E6C-6CAE-057D7DF7F489" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="0DC80FD9-4066-2104-41A3-FBD0C6962376" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="725A5097-ADBF-A41C-FE6E-1895EA039297" name="Hierarchy_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

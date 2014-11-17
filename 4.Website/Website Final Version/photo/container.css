@@ -1,0 +1,12 @@
+#column{
+	float:left;
+	margin-bottom:30px;
+	width:33%
+}
+#pt{
+	height:100%;
+}
+#img{
+	margin:4px;
+	box-shadow:#000 5px 5px 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="Menu.css" rel="stylesheet" type="text/css" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+     
+<div id="formContainer1">
+<h3>Fill in this form to register: </h3>
+<form action="registration_report.php" method="post">
+    <label for="firstName">First name:</label>
+    <input type="text" name="firstName" /><br /><br />
+    <label for="lastName">Last name:</label>
+    <input type="text" name="lastName" /><br /><br />
+    <label for="age">Age:</label>
+    <input type="text" name="age" /><br /><br />
+    <label for="sex" style="width: auto;">Sex:</label>
+    <input type="radio" name="sex" value="M" style="width: auto; margin-left: 127px" checked="checked" /><span> Male</span>
+    <input type="radio" name="sex" value="F" style="width: auto; margin-left: 30px" /><span> Female</span><br /><br />
+    <label for="emailAdr">E-mail:</label>
+    <input type="text" name="emailAdr" /><br /><br />
+    <input type="submit" value="Register" class="button" />
+</form>
+</div>
+<div id="formContainer2">
+<h3>Fill in this form if you want to reserve a spot: </h3>
+<form action="reservation_report.php" method="post">
+    <label for="spotNumber">Spot number:</label>
+    <input type="text" name="spotNumber" /><br />
+    <a href="show_free_spots.php" style="margin-left: 200px" target="_blank">Show free spots</a><br />
+    <label for="eventAccount">Event account number:</label>
+    <input type="text" name="eventAccount" /><br /><br />
+    <label for="numberOfGuests">Number of guests:</label>
+    <select name="numberOfGuests">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select><br /><br />
+    <label for="lastNames">Last names of guests:</label>
+    <textarea rows="2" name="lastNames" id="textArea"></textarea><br /><br />
+    <input type="submit" value="Reserve" class="button" />
+</form>
+</div>
+<img src="map.png" id="mapOfCamp"/>
+</body>
+</html>
